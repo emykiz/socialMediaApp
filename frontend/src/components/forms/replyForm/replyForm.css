@@ -1,0 +1,59 @@
+.commentForm {
+	height: 10px;
+	-webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	box-shadow: 0px 0px 16px -8px #000000ad;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	margin: auto;
+}
+
+.commentFormWrapper {
+	background-color: white;
+}
+
+.formGroupC {
+	width: 100%;
+	padding: 8px;
+}
+
+.inputDiv {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.commentFormImg {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 8px;
+}
+
+.form textarea {
+	width: 100%;
+	border: none;
+	height: 80px;
+	font-size: 16px;
+}
+
+.form textarea:focus {
+	outline: none;
+}
+
+.formButtom {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	color: teal;
+}
+
+.formButtom .at,
+.formButtom i {
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 3px;
+}
